@@ -7,9 +7,10 @@ I pursue the following goals:
 1. Testing the capacity of DCGAN to generate images.
 2. Making DCGAN implementation less cumbersome thanking to Keras library.
 
-The Keras implementation in ["gan_blob.ipynb"](https://github.com/GSukr/FashionMNIST_DCGAN_Keras/blob/master/gan_blob.ipynb) (this notebook is not well annotated, please refer to ["Annotated_DCGAN_.ipynb"](https://github.com/GSukr/FashionMNIST_DCGAN_Keras/blob/master/Annotated_DCGAN_.ipynb) for better understanding the code) is similar to ["GAN"](https://colab.research.google.com/github/sakethkaparthi/Apparel-GAN/blob/master/Fashion_MNIST_GAN.ipynb#scrollTo=hz1JhdX7EL5a) though the latter is written with Tensorflow.
-
+The Keras implementation in ["gan_blob.ipynb"](https://github.com/GSukr/FashionMNIST_DCGAN_Keras/blob/master/gan_blob.ipynb) is similar to ["GAN"](https://colab.research.google.com/github/sakethkaparthi/Apparel-GAN/blob/master/Fashion_MNIST_GAN.ipynb#scrollTo=hz1JhdX7EL5a) though the latter is written with Tensorflow.
 To run ["gan_blob.ipynb"](https://github.com/GSukr/FashionMNIST_DCGAN_Keras/blob/master/gan_blob.ipynb) you will need to install keras_adversarial from: [keras-adversarial](https://github.com/bstriner/keras-adversarial/tree/6651cfad771f72521c78a5cc3a23a2313efeaa88). 
+
+![](https://placehold.it/150x40/009955/fff?text=IMPORTANT!) This notebook is not well annotated, please refer to ["Annotated_DCGAN_.ipynb"](https://github.com/GSukr/FashionMNIST_DCGAN_Keras/blob/master/Annotated_DCGAN_.ipynb) for better understanding the code.
 
 The output image at the end of the training is as at Fig 1.
 ![Fig 1: Images generated at 100th epochs](https://github.com/GSukr/FashionMNIST_DCGAN_Keras/blob/master/images_generated/epoch-099_no_batch.png)
